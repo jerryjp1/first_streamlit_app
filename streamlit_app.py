@@ -2,6 +2,7 @@ import streamlit
 
 streamlit.title('My parents new healthy diner')
 streamlit.header('Lunch - Menu')
-streamlit.text('1. Steamed Jeera Rice')
-streamlit.text('2. Dal tadka')
-streamlit.text('3. Chicken Khurma')
+streamlit.text('🥗 Steamed Jeera Rice')
+streamlit.text('🥣 Dal tadka')
+streamlit.text('🐔 Chicken Tandoor')
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
