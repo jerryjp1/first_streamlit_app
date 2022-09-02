@@ -19,4 +19,7 @@ streamlit.text('🥣 Dal tadka')
 streamlit.text('🐔 Chicken Tandoor')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 streamlit.dataframe(fruits_to_show)
-streamlit.text(fruityvice_response)
+
+# Display fruity vice api data
+streamlit.header("Fruityvice Fruit Advice!")
+streamlit.text(fruityvice_response.json())
